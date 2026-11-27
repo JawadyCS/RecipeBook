@@ -8,17 +8,34 @@ import java.util.ArrayList;
  */
 public class RecipeBook
 {
-    String title;
-    ArrayList<Recipe> recipes;
-    
-    public RecipeBook(String title) {
-        this.title = title;
-    }
+    ArrayList<Recipe> recipes = new ArrayList<>();
     
     public void addRecipe(Recipe r) {
+        
     }
     
     public void removeRecipe(Recipe r) {
         
+    }
+    
+    public void listAll() {
+        
+    }
+    
+    public void listByType(String type) {
+        
+    }
+    
+    public ArrayList<Recipe> searchByTitle(String title) {
+        return null;
+    }
+    
+    // We use String for parameter because..
+    public ArrayList<Recipe> searchByIngredient(String name) {
+        return null;
+    }
+    
+    public ArrayList<Recipe> searchByTag(Tag tag) {
+        return null;
     }
 }

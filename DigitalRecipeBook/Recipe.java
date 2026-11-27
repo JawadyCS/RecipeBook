@@ -8,19 +8,11 @@ import java.util.ArrayList;
  */
 public class Recipe
 {
-    
     String title;
     int servings;
     ArrayList<Ingredient> ingredients;
     ArrayList<String> steps;
     ArrayList<Double> ratings;
-    ArrayList<String> tags;
-    
-    
-    
-    
-    
-
-
+    ArrayList<Tag> tags;
     
 }

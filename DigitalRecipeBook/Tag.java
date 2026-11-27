@@ -7,5 +7,12 @@
  */
 public enum Tag
 {
-    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+    VEGETERIAN,
+    VEGAN,
+    GLUTEN_FREE,
+    BREAKFAST,
+    LUNCH,
+    DINNER,
+    SPICY,
+    PROTEIN;
 }
